@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "next/core-web-vitals", // Este é o preset correto
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
