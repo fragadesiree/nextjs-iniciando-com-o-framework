@@ -5,6 +5,10 @@
   ],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/display-name": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@next/next/next-script-for-ga": "off",
+    "@next/next/no-before-interactive-script-outside-document": "off"
   }
 }
