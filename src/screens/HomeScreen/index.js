@@ -10,7 +10,7 @@ export default function HomeScreen() {
   return (
     <Box>
       <Head>
-        <title>Home - Alura Cases Campanha</title>
+        <title>Home - Projeto FAQ - Alura Campanha</title>
       </Head>
       <Box
         as="main"
@@ -145,7 +145,7 @@ export default function HomeScreen() {
                       color: theme.colors.neutral["900"],
                     }}
                   >
-                    Alura Cases
+                    Projeto FAQ - Alura
                   </Text>
                   <Text
                     as="p"

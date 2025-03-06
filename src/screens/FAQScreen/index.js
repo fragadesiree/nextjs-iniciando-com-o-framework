@@ -12,7 +12,7 @@ export default function FAQScreen({ faq }) {
       }}
     >
       <Head>
-        <title>FAQ - Alura Cases Campanha</title>
+        <title>FAQ - Projeto FAQ - Alura Campanha</title>
       </Head>
       <Box
         as="main"
@@ -33,7 +33,7 @@ export default function FAQScreen({ faq }) {
       >
         <Box
           styleSheet={{
-            display: "grid",
+            display: "flex",
             gridTemplateColumns: {
               lg: "repeat(3,minmax(0,1fr))",
             },
